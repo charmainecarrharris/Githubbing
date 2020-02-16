@@ -1,3 +1,23 @@
+# The following are custom additions
+
+# ignore certain file types
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.mdb 
+*.accdb
+
+
+
+
+
+
+# The rest of these are from the 
+# default gitignore for R.
+
+
 # History files
 .Rhistory
 .Rapp.history
