@@ -9,7 +9,9 @@
 *.mdb 
 *.accdb
 
-
+# ignore some folders/subfolders
+ProjectManagement
+DATA/BaseData/LargeFiles
 
 
 
