@@ -40,7 +40,12 @@ Wiki pages are a good place write up background information about the project an
 
 Each project will have its own unique requirements and dynamics that shape how the repository evolves. Here is a suggested starting point:
 
-* DATA folder for all data files, with sub folders for raw inputs (*BaseData*), processed data (where you put the cleaned and reaorganized records you are actually using for the analyses), and tracking files (e.g. where you put record mismatches, diagnostic summaries on missing records, etc.)
+* DATA folder for all data files, with sub folders for raw inputs (*BaseData*), processed data (where you put the cleaned and reorganized records you are actually using for the analyses), and tracking files (e.g. where you put record mismatches, diagnostic summaries on missing records, etc.)
+* FUNCTIONS folder for stand-alone functions that get used repeatedly in the analysis (e.g. *Rec2Run()*, *plotTradeOff()*)
+* SCRIPTS folder for the R code that runs the actual analyses. Consider numbering the script file names (e.g. *1_Read&Process_Data.R*, *2_ExploratoryPlots.R*). Also, if there are distinct components of the analysis, put the scripts into different folders (e.g. *InseasonEstimates*, *GSIEstimates*)
+
+
+Follow the links above to see examples.
 
 
 ### gitignore (What not to track)
@@ -52,20 +57,10 @@ Not everything in your local directory should be tracked and shared via github. 
 *.pdf
 *.doc
 *.docx
-*.xls
-*.xlsx
-*.mdb 
-*.accdb
-*.ppt
-*.pptx
-*.png
-*.jpg
-*.jpeg
 
 # ignore some folders/subfolders
 ProjectManagement
 DATA/BaseData/LargeFiles
-
 
 # The rest of these are from the default gitignore for R.
 .Rhistory
