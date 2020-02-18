@@ -8,8 +8,15 @@
 *.xlsx
 *.mdb 
 *.accdb
+*.ppt
+*.pptx
+*.png
+*.jpg
+*.jpeg
 
-
+# ignore some folders/subfolders
+ProjectManagement
+DATA/BaseData/LargeFiles
 
 
 
