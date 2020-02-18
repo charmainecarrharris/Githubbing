@@ -16,7 +16,9 @@ Below are some suggestions.
 
 ### Issues
 
-The basic idea of the issue threads is to open 1 issue for each bug/task, then discuss it with others, and close it when it's done (like [this](https://github.com/SOLV-Code/Githubbing/issues/11)). However, you can also use it as a bulletin board (e.g. to collaboratively develop a meeting agenda and then include a short summary of the meeting, like [this](https://github.com/SOLV-Code/Githubbing/issues/10))
+The basic idea of the issue threads is to open 1 issue for each bug/task, then discuss it with others, and close it when it's done (like [this](https://github.com/SOLV-Code/Githubbing/issues/11)). However, you can also use it as a bulletin board (e.g. to collaboratively develop a meeting agenda and then include a short summary of the meeting, like [this](https://github.com/SOLV-Code/Githubbing/issues/10)).
+
+Issue threads are searchable, and that becomes really useful for longer projects (e.g. "What did we decide about en-route mortality assumptions last year?")
 
 
 ### Readme files
