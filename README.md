@@ -2,8 +2,6 @@
 Ideas and Tips for using Github Features in Fisheries Projects
 
 
-
-
 ## Documentation / Communication / Collaboration
 
 Github has 3 features that help with documenting your work, coordinating among contributors, and communicating
@@ -21,19 +19,16 @@ Below are some suggestions.
 The basic idea of the issue threads is to open 1 issue for each bug/task, then discuss it with others, and close it when it's done (like [this](https://github.com/SOLV-Code/Githubbing/issues/11)). However, you can also use it as a bulletin board (e.g. to collaboratively develop a meeting agenda and then include a short summary of the meeting, like [this](https://github.com/SOLV-Code/Githubbing/issues/10))
 
 
-
-
-
-
-
 ### Readme files
 
-* into subfolders (E.g.
+Within any folder, github will look for a file *README.md* and display it like website. In the readme files you can use all the features of basic markdown, like [formatting](https://github.com/SOLV-Code/Githubbing/issues/6), [lists](https://github.com/SOLV-Code/Githubbing/issues/4), [task lists](https://github.com/SOLV-Code/Githubbing/issues/2), and [links](https://github.com/SOLV-Code/Githubbing/issues/7). 
+
+Readme files are really useful to orient others in the repository and document the different pieces. For example, describe the purpose of a specific analysis in a subfolder, like [here](https://github.com/SOLV-Code/Githubbing/tree/master/SCRIPTS), or describe data sources like [here](https://github.com/SOLV-Code/Githubbing/tree/master/DATA) and [here](https://github.com/SOLV-Code/Githubbing/tree/master/DATA/BaseData).
 
 
 ### Wiki Pages
 
-
+Wiki pages are a good place write up background information about the project and methods. Think of these like a manual that goes with the code, and a preliminary version of the methods section for the report. For example, see [here](https://github.com/SOLV-Code/Githubbing/wiki/Markdown).
 
 
 ## Housekeeping
@@ -41,15 +36,48 @@ The basic idea of the issue threads is to open 1 issue for each bug/task, then d
 
 ### Folder Structures
 
+Each project will have its own unique requirements and dynamics that shape how the repository evolves. Here is a suggested starting point:
+
+* DATA folder for all data files, with sub folders for raw inputs (*BaseData*), processed data (where you put the cleaned and reaorganized records you are actually using for the analyses), and tracking files (e.g. where you put record mismatches, diagnostic summaries on missing records, etc.)
+
 
 ### gitignore (What not to track)
+
+Not everything in your local directory should be tracked and shared via github. You can exclude specific files, file types, and folders by listing them in the *.gitignore* file (e.g. [this one](https://github.com/SOLV-Code/Githubbing/blob/master/.gitignore)).
+
+```
+# ignore certain file types
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.mdb 
+*.accdb
+*.ppt
+*.pptx
+*.png
+*.jpg
+*.jpeg
+
+# ignore some folders/subfolders
+ProjectManagement
+DATA/BaseData/LargeFiles
+
+
+# The rest of these are from the default gitignore for R.
+.Rhistory
+.Rapp.history
+.RData
+```
 
 
 
 ## Workflow
 
-github, markdown, bookdown, RStudio
+include a brief description of how to combine github, markdown, bookdown, RStudio
 
+then link to a wiki page for each
 
 
 
