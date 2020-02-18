@@ -43,6 +43,7 @@ Each project will have its own unique requirements and dynamics that shape how t
 * DATA folder for all data files, with sub folders for raw inputs (*BaseData*), processed data (where you put the cleaned and reorganized records you are actually using for the analyses), and tracking files (e.g. where you put record mismatches, diagnostic summaries on missing records, etc.)
 * FUNCTIONS folder for stand-alone functions that get used repeatedly in the analysis (e.g. *Rec2Run()*, *plotTradeOff()*)
 * SCRIPTS folder for the R code that runs the actual analyses. Consider numbering the script file names (e.g. *1_Read&Process_Data.R*, *2_ExploratoryPlots.R*). Also, if there are distinct components of the analysis, put the scripts into different folders (e.g. *InseasonEstimates*, *GSIEstimates*)
+* OUTPUT folder where figures, csv files with simulation output etc are stored. These are usually not tracked (see gitignore below), but periodically zipped up and shared through a different platform (e.g. dropbox).
 
 
 Follow the links above to see examples.
