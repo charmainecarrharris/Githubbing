@@ -7,7 +7,7 @@ Ideas and Tips for using Github Features in Fisheries Projects
 
 
 
-![github_SettingUp](https://user-images.githubusercontent.com/30556192/75281395-15d97200-57c4-11ea-9afa-97f8cca678ff.PNG)
+![github_SettingUp](https://user-images.githubusercontent.com/30556192/75281395-15d97200-57c4-11ea-9afa-97f8cca678ff.PNG&s=200)
 
 
 
