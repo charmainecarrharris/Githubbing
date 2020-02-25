@@ -2,6 +2,10 @@
 Ideas and Tips for using Github Features in Fisheries Projects
 
 
+![In case of fire](/InCaseofFire.jpg?raw=true)
+
+
+
 ## Documentation / Communication / Collaboration
 
 Github has 3 features that help with documenting your work, coordinating among contributors, and communicating
