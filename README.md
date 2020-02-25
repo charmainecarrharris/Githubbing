@@ -12,7 +12,8 @@ Ideas and Tips for using Github Features in Fisheries Projects
 ## Basic Workflow
 
 
-![github_workflow](https://user-images.githubusercontent.com/30556192/75281434-2558bb00-57c4-11ea-9298-c9c15642eb9b.PNG)
+![github_workflow3](https://user-images.githubusercontent.com/30556192/75290986-38748680-57d6-11ea-8b20-f40deaa022ee.PNG)
+
 
 ## Documentation / Communication / Collaboration
 
