@@ -3,7 +3,7 @@ Ideas and Tips for using Github Features in Fisheries Projects
 
 
 
-![In case of fire](/InCaseofFire.jpg?raw=true)
+![In case of fire](InCaseofFire.jpg?raw=true)
 
 
 
