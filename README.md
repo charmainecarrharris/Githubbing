@@ -3,13 +3,13 @@ Ideas and Tips for using Github Features in Fisheries Projects
 
 
 
+## Setting Up
+
+
+
+![github_SettingUp](https://user-images.githubusercontent.com/30556192/75281395-15d97200-57c4-11ea-9afa-97f8cca678ff.PNG)
+
 ## Basic Workflow
-
-
-
-![github_SettingUp](https://user-images.githubusercontent.com/30556192/75281395-15d97200-57c4-11ea-9afa-97f8cca678ff.PNG&s=200)
-
-
 
 
 ![github_workflow](https://user-images.githubusercontent.com/30556192/75281434-2558bb00-57c4-11ea-9298-c9c15642eb9b.PNG)
